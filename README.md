@@ -23,4 +23,9 @@ Running a local web server ensures all paths and browser features work correctly
      npx serve .
      ```
 3. Open the following local link in your browser:
-   👉 **[http://localhost:8000/home.html](http://localhost:8000/home.html)** (or the port specified by `serve`).
+   👉 **[FAA](http://localhost:8000/home.html)**
+
+### Live Online Version
+
+You can also view the live website hosted on GitHub Pages here:
+👉 **[FAA](https://fizzaaliii.github.io/ict-project/home.html)**
