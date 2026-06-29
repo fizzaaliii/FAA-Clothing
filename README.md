@@ -1,4 +1,4 @@
-# FAA Store - ICT Project
+# FAA Clothing
 
 A clean and responsive front-end e-commerce website featuring clothing, accessories, fragrances, and scarfs.
 
@@ -28,4 +28,4 @@ Running a local web server ensures all paths and browser features work correctly
 ### Live Online Version
 
 You can also view the live website hosted on GitHub Pages here:
-👉 **[FAA](https://fizzaaliii.github.io/ict-project/home.html)**
+👉 **[FAA](https://fizzaaliii.github.io/FAA-Clothing/home.html)**
