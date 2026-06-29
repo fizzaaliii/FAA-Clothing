@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+        <link rel="shortcut icon" href="favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <title>FAA</title>
+        <style>
+            .search::placeholder{
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+            }
+            .search:hover{
+                transition: opacity 0.2s ease;
+                opacity: 0.5;
+            }
+            .FAA:hover{
+                opacity: 0.5;
+            }
+            .icon1:hover{
+                transition: opacity 0.2s ease;
+                opacity: 0.5;
+            }
+            .search-button:hover{
+                transition: opacity 0.2s ease;
+                opacity: 0.5;
+            }
+            .navigation:hover{
+                border-bottom: 2px solid maroon;
+            }
+            .shop-btn:hover{
+                transition: opacity 0.2s ease;
+                opacity: 0.5;
+                cursor: pointer;
+            }
+            img:hover{
+                transition: opacity 0.2 ease;
+                opacity:0.5;
+                cursor: pointer;
+            }
+            body{
+      background-image: url(bgimage.jfif);
+    }
+
+         </style>
+    </head>
+    <body>
+
+        <header style="display: flex; align-items: center; justify-content: space-between; padding: 1rem; background-color: white; border-radius: 2px;">
+            <img src="logo.jpg" alt="Website Logo" height="120" style="margin-right: 2rem;">
+            <div style="display: flex; justify-content: flex-end; align-items: center; gap: 1rem;">
+                
+              <a >
+                <i class="icon1 fas fa-user" style="font-size: 1.3em; color: rgb(172, 32, 32); cursor: pointer;"></i>
+              </a>
+              <a >
+                <i class="icon1 fas fa-shopping-cart" style="font-size: 1.3em; color: rgb(172, 32, 32); cursor: pointer;"></i>
+              </a>
+              <i class="icon1 fas fa-heart" style="font-size: 1.3em; color: rgb(172, 32, 32); cursor: pointer;"></i>
+              <i class="icon1 fas fa-envelope" style="font-size: 1.3em; color: rgb(172, 32, 32); cursor: pointer;"></i>
+            </div>
+            
+          </header>
+        <div style="width: 100%; background-color: white; display: flex;
+        justify-content: center; align-items: center; gap: 5%; font-size: 1.3em;
+        padding-top: 0.8em; padding-bottom: 0.8em;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         border-top: 0px;">
+            <div class="navigation" style="color: black; cursor: pointer;">
+                <a href="home.html" style="margin: 0; padding: 0; text-decoration: none;
+                color: inherit;">Home</a>
+            </div>
+            <div class="navigation" style="color: black; cursor: pointer;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative;">
+               <a href="mens.html" style="margin: 0; padding: 0; text-decoration: none;
+                color: inherit;">Men's Clothing</a>   
+            </div>
+            <div class="navigation" style="color: black; cursor: pointer;">
+                <a href="womens.html" style="margin: 0; padding: 0; text-decoration: none;
+                color: inherit;">Women's Clothing</a>
+            </div>
+            <div class="navigation" style="color: black; cursor: pointer;">
+                <a href="acc.html"style="margin: 0; padding: 0; text-decoration: none;
+                color: inherit;">Accessories</a>
+            </div>
+            <div class="navigation" style="color: black; cursor: pointer;">
+                <a href="fragnances.html" style="margin: 0; padding: 0; text-decoration: none;
+                color: inherit;">Fragrances</a>
+            </div>
+            <div class="navigation" style="color: black; cursor: pointer;">
+                <a href="Scarfs&Shawls.html" style="margin: 0; padding: 0; text-decoration: none;
+                color: inherit;">Scarfs&Shawls</a>
+            </div>
+        </div>
+
+        <div class="container my-5">
+    
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc1.jpeg" class="card-img-top" alt="Card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">2PC-Dhanak Suit</h5>
+                            <p class="card-text"><Rs class="4500"></Rs>Rs.3500</p>
+                            <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>                        </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc2.jpeg" class="card-img-top" alt="Card 2">
+                        <div class="card-body">
+                            <h5 class="card-title"> 3PC-Basic Green Suit</h5>
+                            <p class="card-text"><Rs class="2200"></Rs>Rs.5200</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc3.jpeg" class="card-img-top" alt="Card 3">
+                        <div class="card-body">
+                            <h5 class="card-title"> Khaaki Basic Shirt</h5>
+                            <p class="card-text"><Rs class="2900"></Rs>Rs.2900</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc4.jpeg" class="card-img-top" alt="Card 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Embroidered Khaddar</h5>
+                            <p class="card-text"><Rs class="5300"></Rs>Rs.5300</p>
+                            <div class="d-grid gap-2">
+                                <a class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+                             </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc5.png" class="card-img-top" alt="Card 5">
+                        <div class="card-body">
+                            <h5 class="card-title">2PC-Silk (Luxury Pret)</h5>
+                            <p class="card-text"><Rs class="3500"></Rs>Rs.3500</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc6.jpeg" class="card-img-top" alt="Card 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Lime Stitch-2PC</h5>
+                            <p class="card-text"><Rs class="2400"></Rs>Rs.2400</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc7.jpeg" class="card-img-top" alt="Card 7">
+                        <div class="card-body">
+                            <h5 class="card-title"> Ivory Pearl Silk Kurta  </h5>
+                            <p class="card-text"><Rs class="3000"></Rs>Rs.3000</p>
+         <div class="d-grid gap-2">
+            <a = class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc8.jpeg" class="card-img-top" alt="Card 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Onion Gold-2PC</h5>
+                            <p class="card-text"><Rs class="5700"></Rs>Rs.5700</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 9 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc9.jpeg" class="card-img-top" alt="Card 9">
+                        <div class="card-body">
+                            <h5 class="card-title">Serra-Luxury Green</h5>
+                            <p class="card-text"><Rs class="2800"></Rs>Rs.2800</p>
+         <div class="d-grid gap-2">
+            <a class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 10 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc10.jpeg" class="card-img-top" alt="Card 10">
+                        <div class="card-body">
+                            <h5 class="card-title">Flamingo-Pink 2PC</h5>
+                            <p class="card-text"><Rs class="2700"></Rs>Rs.2700</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 11 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc11.jpeg" class="card-img-top" alt="Card 11">
+                        <div class="card-body">
+                            <h5 class="card-title">BG Luxury pret</h5>
+                            <p class="card-text"><Rs class="3200"></Rs>Rs.3200</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 12 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc12.jpeg" class="card-img-top" alt="Card 12">
+                        <div class="card-body">
+                            <h5 class="card-title"> Black-Gold Luxury </h5>
+                            <p class="card-text"><Rs class="4900"></Rs>Rs.4900</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 13 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc13.jpeg" class="card-img-top" alt="Card 13">
+                        <div class="card-body">
+                            <h5 class="card-title">Cream Embroidred-3PC</h5>
+                            <p class="card-text"><Rs class="3400"></Rs>Rs.3400</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 14 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc14.jpeg" class="card-img-top" alt="Card 14">
+                        <div class="card-body">
+                            <h5 class="card-title">Lavender Bliss-2PC</h5>
+                            <p class="card-text"><Rs class="3100"></Rs>Rs.3100</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 15 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc15.jpeg" class="card-img-top" alt="Card 15">
+                        <div class="card-body">
+                            <h5 class="card-title">Minty Meadow-3PC</h5>
+                            <p class="card-text"><Rs class="3200"></Rs>Rs.3200</p>
+         <div class="d-grid gap-2">
+            <a  class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 16 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="wc16.jpeg" class="card-img-top" alt="Card 16">
+                        <div class="card-body">
+                            <h5 class="card-title">Dune Mist-3PC</h5>
+                            <p class="card-text"><Rs class="6000"></Rs>Rs.6000</p>
+         <div class="d-grid gap-2">
+            <a class="btn btn-primary" style="background-color: maroon;">Add to Cart</a>
+         </div>
+         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <footer style="background-color: #fff; color: maroon; padding: 20px; text-align: center; border-top: 1px solid #ddd;">
+            <!-- Footer Text -->
+            <p style="margin-bottom: 20px;">© 2024 FAA Store. All Rights Reserved.</p>
+          
+            <!-- Navigation Links -->
+            <nav style="margin-bottom: 20px;">
+              <a  style="color: maroon; margin: 0 20px; text-decoration: none; font-weight: bold;">About Us</a>
+              <a  style="color: maroon; margin: 0 20px; text-decoration: none; font-weight: bold;">Contact</a>
+              <a  style="color: maroon; margin: 0 20px; text-decoration: none; font-weight: bold;">Privacy Policy</a>
+            </nav>
+          
+            <!-- Social Media Icons -->
+            <div style="margin-bottom: 20px;">
+              <a href="https://facebook.com" target="_blank" style="margin: 0 15px;">
+                <img src="facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+              </a>
+              <a href="https://twitter.com" target="_blank" style="margin: 0 15px;">
+                <img src="twitter.png" alt="Twitter" style="width: 30px; height: 30px;">
+              </a>
+              <a href="https://instagram.com" target="_blank" style="margin: 0 15px;">
+                <img src="instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+              </a>
+            </div>
+           
+          
+       
+    </body>
+</hmtl>

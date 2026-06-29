@@ -1,0 +1,128 @@
+
+<html>
+    <title>Forms</title>
+    <head>
+        <style>
+            body{
+                background-image: url(formimage.jfif);
+
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="grid text-center" style="display: flex; width: 100%; justify-content: center;">
+            <div class="g-col-6" style="justify-content: center;">
+                <div style="width: 100%;"> <p style="font-family: Parkinsans; font-size: 1.8em; font-weight: 700; color: white;">Billing Address</p></div>
+                <div style="width: 100%; display: flex;"> 
+                    <div>
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">Full Name:</p>
+                        <input type="text" style="height: 3em; border: none; border-radius: 4px;" required>
+                    </div>
+        
+                    <div style="padding-left: 2em; padding-top: 3.9em;">
+                        <button style=" background-color: rgb(237, 61, 34); cursor: pointer; border: none; border-radius: 8px; height: 2.5em; width: 4em; color: white; margin-right: 0.5em;" >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16">
+                                <path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.35.35 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91q.57-.403.993-1.005a4.94 4.94 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.7 2.7 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.7.7 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016q.326.186.548.438c.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.87.87 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.35.35 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32z"/>
+                              </svg>
+                        </button>
+                        <button style=" background-color: rgb(235, 249, 40); cursor: pointer; border: none; border-radius: 8px; height: 2.5em; width: 33px; justify-content: center; margin-right: 0.5em;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16" style="padding-right: 2em;">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                              </svg>
+                        </button>
+                        <button style=" background-color: rgb(19, 185, 83); cursor: pointer; border: none; border-radius: 8px; height: 2.5em; width: 4em; color: white; ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
+                                <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                                <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"/>
+                              </svg>
+                        </button>
+                    </div>
+                </div>
+                <div style="width: 100%; display: flex;">
+                    <div>
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">Email:</p>
+                        <input type="text" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                    <div style="padding-left: 2em;">
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;" >Name on card:</p>
+                        <input type="text" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                </div>
+                <div style="width: 100%; display: flex;">
+                    <div>
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">Address:</p>
+                        <input type="text" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                    <div style="padding-left: 2em;">
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">Credit Card Number:</p>
+                        <input type="text" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                </div>
+                <div style="width: 100%; display: flex;">
+                    <div>
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">City:</p>
+                        <input type="text" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                    <div style="padding-left: 2em;">
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">Expiration Date:</p>
+                        <input type="date" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                </div>
+                <div style="width: 100%; display: flex;">
+                    <div>
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">State:</p>
+                        <input type="text" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                    <div style="padding-left: 2em;">
+                        <p style="font-family: Parkinsans; font-weight: 400; color: white;">ZIP:</p>
+                        <input type="number" style="height: 3em; border-radius: 4px; border: none;" required>
+                    </div>
+                </div>
+            </div>
+          </div> 
+          <div style="display: flex; justify-content: center; width: 100%; margin-top: 2em;
+          align-items: center;">
+            <a href="home.html" style="margin: 0; padding: 0;">
+                <button style="width: 100%; font-family: Arial, Helvetica, sans-serif; padding-bottom: 0.5em;
+            padding-top: 0.5em; border-radius: 5px; background-color: rgb(105, 31, 31);
+           
+           color: white;font-family: Parkinsans;cursor: pointer;
+           padding-left: 1.5em; padding-right: 1.5em;" type="button" class="btn btn-light">Submit</button>
+            </a>
+
+          </div>
+          <footer style="background-color: #fff; color: maroon; padding: 20px; text-align: center; border-top: 1px solid #ddd;">
+            <!-- Footer Text -->
+            <p style="margin-bottom: 20px;">© 2024 FAA Store. All Rights Reserved.</p>
+          
+            <!-- Navigation Links -->
+            <nav style="margin-bottom: 20px;">
+              <a href="about.html" style="color: maroon; margin: 0 20px; text-decoration: none; font-weight: bold;">About Us</a>
+              <a href="contact.html" style="color: maroon; margin: 0 20px; text-decoration: none; font-weight: bold;">Contact</a>
+              <a href="privacy.html" style="color: maroon; margin: 0 20px; text-decoration: none; font-weight: bold;">Privacy Policy</a>
+            </nav>
+          
+            <!-- Social Media Icons -->
+            <div style="margin-bottom: 20px;">
+              <a href="https://facebook.com" target="_blank" style="margin: 0 15px;">
+                <img src="facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+              </a>
+              <a href="https://twitter.com" target="_blank" style="margin: 0 15px;">
+                <img src="twitter.png" alt="Twitter" style="width: 30px; height: 30px;">
+              </a>
+              <a href="https://instagram.com" target="_blank" style="margin: 0 15px;">
+                <img src="instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+              </a>
+            </div>
+           
+        
+          </footer>
+          
+    </body>
+</html>
